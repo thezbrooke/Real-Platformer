@@ -1,0 +1,40 @@
+.background    { background: rgb(169, 119, 156);
+                 table-layout: fixed;
+                 border-spacing: 0;   }
+.background td { padding: 0;          }
+.lava          { background: rgb(122, 9, 9); }
+.wall          { background: rgb(173, 212, 214);   }
+.floater		{background: rgb(206, 64, 175);}
+
+.enemy			{background-image: url("enemy.png");
+				background-size: 20px 20px;}
+   
+.actor  { position: absolute;  }
+.coin   { background-image: url("bonecoin.png");
+			background-size: 15px 15px;}
+.player { background-image: url("spritefaceright.png");
+			background-size: 20px 20px;}
+
+.wings 		{background-image: url("Wings.png");
+				background-size: 18px 12px;}
+.bullet 	{background-image: url("bullet.png");
+				background-color: "black";
+				background-size: 10px 10px;}
+.bulletleft {background-image: url("bulletleft.png");
+				background-size: 10px 10px;}
+
+
+
+.game {
+  overflow: hidden;
+  max-width: 600px;
+  max-height: 450px;
+  position: relative;
+}
+
+.glow .player { 
+	box-shadow: -4px -7px 8px white, 4px -7px 8px white;
+}
+.won .player {
+  box-shadow: -4px -7px 8px white, 4px -7px 8px white;
+}
